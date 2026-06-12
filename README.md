@@ -13,4 +13,6 @@ Open Command Prompt as Administrator and run the following commands (adjust the 
 
 **2. Install the Script:**
 * Place the `maya_fspy` folder into your Maya scripts directory: `Documents\maya\2025\scripts\`
-* (Add whatever command they need to run in Maya to launch it here)
+* Use the below code in maya py runner and VOILA!
+* import maya_fspy.ui as mfspy_ui
+mfspy_ui.maya_fspy_ui()
